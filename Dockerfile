@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
   mtr \
   netcat \
   nmap \
+  iperf3 \
   && rm -rf /var/lib/apt/lists/*
 
 CMD [ "/bin/bash" ]
